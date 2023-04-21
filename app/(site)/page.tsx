@@ -7,7 +7,7 @@ export default async function Home() {
 
     return (
         <div>
-            <h1 className="font-semibold text-5xl">Hello I'm <span className="bg-gradient-to-r from-orange-500 via-red-500 to-purple-600 bg-clip-text text-transparent">Recep</span></h1>
+            <h1 className="font-semibold text-5xl">Hello I&apos;m <span className="bg-gradient-to-r from-orange-500 via-red-500 to-purple-600 bg-clip-text text-transparent">Recep</span></h1>
             <h2 className="text-2xl font-medium mt-10 mb-6">My Projects</h2>
             <div className="flex flex-wrap justify-start gap-10">
                 {projects.map((project) => (

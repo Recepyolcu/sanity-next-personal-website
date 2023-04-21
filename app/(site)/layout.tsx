@@ -12,12 +12,6 @@ export default async function RootLayout({ children }: { children: React.ReactNo
 
     return (
         <html lang="en">
-            <head>
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin='use-credentials' />
-                <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
-            </head>
-
             <body className='bg-neutral-900 text-white'>
                 <header className="w-10/12 mx-auto py-4 px-1 flex justify-between items-center border-b-[3px] border-neutral-800 shadow-xl">
                     <div>
